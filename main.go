@@ -79,7 +79,6 @@ func deleteBook(c *gin.Context) {
 	c.JSON(404, gin.H{"error": "book not found"})
 }
 
-// main func
 func main() {
 	r := gin.Default()
 
